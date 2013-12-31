@@ -1,0 +1,63 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.500px.com/v1/photos/55376408
+    body:
+      encoding: US-ASCII
+      string: consumer_key=Ou5TL8cnyb5icBfcx2y2i5HykUPNGE3XhwpQ67Io
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v0.8.8
+      Authorization:
+      - OAuth oauth_consumer_key="Ou5TL8cnyb5icBfcx2y2i5HykUPNGE3XhwpQ67Io", oauth_nonce="36b768914cf1fafa6ed31b6f16bc9ef7",
+        oauth_signature="L5CQNO2RY47tYJ42PsYNhZMQ0Uk%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1388524806", oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 31 Dec 2013 21:20:07 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Etag:
+      - '"eb924a657a2d86535e68e27fd1e9ac97"'
+      Cache-Control:
+      - must-revalidate, private, max-age=0
+      Set-Cookie:
+      - session_px_31=BAh7B0kiD3Nlc3Npb25faWQGOgZFRkkiJTc1NjE1MjVhOTk3ZGI3ZWUyMWJhMGE1OTUzNjA3MTc0BjsAVEkiCWhvc3QGOwBGIhJhcGkuNTAwcHguY29t--1a82502469ebd132f2d3a59c9e362c336d2448ed;
+        domain=.500px.com; path=/; HttpOnly
+      X-Request-Id:
+      - 1150e0bcc33d422666657988ba33c6ca
+      X-Runtime:
+      - '0.022393'
+      X-Rack-Cache:
+      - miss
+    body:
+      encoding: UTF-8
+      string: '{"photo":{"id":55376408,"user_id":4288782,"name":"Westminster","description":"Westminster
+        bridge... London..","camera":"","lens":null,"focal_length":null,"iso":"","shutter_speed":null,"aperture":null,"times_viewed":980,"rating":74.8,"status":1,"created_at":"2013-12-19T17:13:47-05:00","category":9,"location":null,"latitude":51.5011026711586,"longitude":-0.1198303699493408,"taken_at":null,"hi_res_uploaded":0,"for_sale":false,"width":880,"height":880,"votes_count":654,"favorites_count":368,"comments_count":60,"positive_votes_count":654,"nsfw":false,"sales_count":0,"for_sale_date":null,"highest_rating":99.6,"highest_rating_date":"2013-12-20T16:55:22-05:00","license_type":0,"converted":true,"privacy":false,"image_url":"http://ppcdn.500px.org/55376408/b534fe0ad2361a34c1194d48817eebe149739a2a/4.jpg","images":[{"size":4,"url":"http://ppcdn.500px.org/55376408/b534fe0ad2361a34c1194d48817eebe149739a2a/4.jpg"}],"store_download":false,"store_print":false,"editors_choice":false,"editors_choice_date":null,"user":{"id":4288782,"username":"wiktorbernatowicz","firstname":"Wiktor","lastname":"Bernatowicz","city":"Southend
+        On Sea","country":"England","fullname":"Wiktor Bernatowicz","userpic_url":"http://pacdn.500px.org/4288782/fd1b1aa8f389ac01833f33a3f436cdd32c70e78d/1.jpg?1","upgrade_status":0,"followers_count":396,"affection":6316},"comments":[]},"comments":[]}'
+    http_version: 
+  recorded_at: Tue, 31 Dec 2013 21:20:06 GMT
+recorded_with: VCR 2.8.0
